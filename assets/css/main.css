@@ -1,0 +1,65 @@
+@font-face{
+	font-family: York White Letter;
+	src: url(../fonts/yorkwhiteletter.ttf);
+	font-weight: bold;
+}
+
+@font-face{
+	font-family: Inconsolata;
+	src: url(../fonts/Inconsolata-Regular.ttf);
+}
+
+html, body{
+	color: black;
+	font-family: 'Inconsolata', Monospace, Courier;
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: 0.1px;
+	background-image: url(../img/bg.jpg);
+	background-color: white;
+}
+
+#content{
+	display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 75%;
+    height: 75%;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    color: #0d39d9;
+    border-radius: 10px;
+}
+
+#header{
+	text-align: center;
+}
+
+#title{
+	font-size: 75px;
+	font-family: 'York White Letter', Monospace, Courier;
+}
+
+#headshot{
+	float: left;
+	margin-top: 5px;
+	margin-right: 15px;
+}
+
+#poster{
+	float: left;
+}
+
+#nav{
+	cursor:hand; 
+	cursor:pointer;
+}
+
+a{
+	color: #0d39d9;
+	text-decoration: none;
+}
