@@ -9,6 +9,18 @@
 	src: url(../fonts/Inconsolata-Regular.ttf);
 }
 
+@media only screen and (min-device-width: 768px) {
+  #title{
+    font-size: 75px;
+  }
+}
+
+@media only screen and (max-device-width: 320px) {
+  #title{
+    font-size: 35px;
+  }
+}
+
 html, body{
 	color: black;
 	font-family: 'Inconsolata', Monospace, Courier;
@@ -33,6 +45,7 @@ html, body{
     background-color: white;
     color: #0d39d9;
     border-radius: 10px;
+    overflow: scroll;
 }
 
 #header{
@@ -40,7 +53,6 @@ html, body{
 }
 
 #title{
-	font-size: 75px;
 	font-family: 'York White Letter', Monospace, Courier;
 }
 
